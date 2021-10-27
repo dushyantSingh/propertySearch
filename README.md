@@ -7,5 +7,5 @@ PropertySearch uses MVVM architecture along with Rxswift to demostrate how MVVM 
 [Quick/Nimble](https://github.com/Quick/Nimble) has been used for writting test cases.
 
 ## Installation 
-run ```pod install``` to install all the dependencies
+run ```pod install``` to install all the dependencies /n
 run ```open PropertySearch.xcworkspace```
