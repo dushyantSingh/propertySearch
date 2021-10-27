@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SeparatorTableViewCell" id="paM-G8-7j5" customClass="SeparatorTableViewCell" customModule="PropertySearch" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="paM-G8-7j5" id="DuE-Hy-MXD">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IbZ-OO-Siu">
+                        <rect key="frame" x="10" y="0.0" width="394" height="0.5"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="Pfu-g9-2if"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="IbZ-OO-Siu" firstAttribute="leading" secondItem="DuE-Hy-MXD" secondAttribute="leading" constant="10" id="Krw-TE-V54"/>
+                    <constraint firstAttribute="trailing" secondItem="IbZ-OO-Siu" secondAttribute="trailing" constant="10" id="bFv-XH-rfS"/>
+                    <constraint firstItem="IbZ-OO-Siu" firstAttribute="top" secondItem="DuE-Hy-MXD" secondAttribute="top" id="j6K-Vs-bHd"/>
+                    <constraint firstAttribute="bottom" secondItem="IbZ-OO-Siu" secondAttribute="bottom" id="zPU-Jd-hv7"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="12" y="157"/>
+        </tableViewCell>
+    </objects>
+</document>

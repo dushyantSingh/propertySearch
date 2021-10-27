@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SpacerTableViewCell" rowHeight="21" id="dc6-hL-BLz" customClass="SpacerTableViewCell" customModule="PropertySearch" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="21"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dc6-hL-BLz" id="5Cq-tF-gpk">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="21"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jcx-di-GbJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="10"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="rVi-OL-owF"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Jcx-di-GbJ" firstAttribute="top" secondItem="5Cq-tF-gpk" secondAttribute="top" id="1iI-sS-J75"/>
+                    <constraint firstAttribute="trailing" secondItem="Jcx-di-GbJ" secondAttribute="trailing" id="7nz-Y3-OVg"/>
+                    <constraint firstAttribute="bottom" secondItem="Jcx-di-GbJ" secondAttribute="bottom" id="Av2-6l-3yE"/>
+                    <constraint firstItem="Jcx-di-GbJ" firstAttribute="leading" secondItem="5Cq-tF-gpk" secondAttribute="leading" id="mpK-cd-Iwe"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="heightConstraint" destination="rVi-OL-owF" id="WWS-pR-rMM"/>
+            </connections>
+            <point key="canvasLocation" x="89.855072463768124" y="108.14732142857143"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
