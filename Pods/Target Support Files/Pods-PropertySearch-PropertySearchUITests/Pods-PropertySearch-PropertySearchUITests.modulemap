@@ -1,0 +1,6 @@
+framework module Pods_PropertySearch_PropertySearchUITests {
+  umbrella header "Pods-PropertySearch-PropertySearchUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
